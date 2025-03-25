@@ -1,3 +1,5 @@
+/* Navbar */
+
 .content{
   display: none;
 }
@@ -5,3 +7,65 @@
 .procedure:hover .content{
   display: block;
 }
+
+/* Scrolling */
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLeft 20s linear infinite;
+}
+
+/* Floating */
+
+.bubble {
+  position: absolute;
+  animation-timing-function: ease-in-out;
+}
+
+.animate-bubble1 {
+  animation: moveBubble1 10s ease-in-out infinite;
+}
+
+.animate-bubble2 {
+  animation: moveBubble2 10s ease-in-out infinite;
+}
+
+.animate-bubble3 {
+  animation: moveBubble3 10s ease-in-out infinite;
+}
+
+@keyframes moveBubble1 {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(30px) translateY(-20px);
+  }
+}
+
+@keyframes moveBubble2 {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(0px) translateY(-30px);
+  }
+}
+
+@keyframes moveBubble3 {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-20px) translateY(20px);
+  }
+}
+
