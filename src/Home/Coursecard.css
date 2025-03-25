@@ -1,0 +1,9 @@
+/* Apply different scales depending on screen size */
+@media (max-width: 640px) {
+  .hover\:scale-105 {
+    transform: scale(1.02) !important;  /* A smaller scale for mobile screens */
+  }
+  .focus\:scale-105 {
+    transform: scale(1.02) !important;  /* A smaller scale for mobile screens */
+  }
+}
