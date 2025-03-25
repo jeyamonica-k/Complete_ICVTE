@@ -19,18 +19,18 @@ function InstituteLogin() {
           placeholder="password"
           className="border-2 border-gray-300 rounded-md p-2 lg:w-[150%]  lg:p-3"
         />
-        <button className="bg-black text-white p-2 border-2 rounded-md hover:text-black hover:bg-transparent hover:border-black hover:cursor-pointer font-medium px-3 md:w-[50%] lg:w-[150%] lg:text-xl">
+        <button className="bg-black text-white p-2 border-2 rounded-md active:text-black hover:text-black active:bg-transparent hover:bg-transparent  active:border-black  hover:border-black active:cursor-pointer hover:cursor-pointer font-medium px-3 md:w-[50%] lg:w-[150%] lg:text-xl">
           Login
         </button>
         <Link to={"/Adminlogin"}>
-        <p className="font-medium hover:underline  hover:cursor-pointer">
+        <p className="font-medium active:underline hover:underline active:cursor-pointer hover:cursor-pointer">
           Login to Admin Account?
         </p></Link>
         
-        <p className="font-medium hover:underline  hover:cursor-pointer">
+        <p className="font-medium active:underline hover:underline active:cursor-pointer hover:cursor-pointer">
           Email: info@icvte.com
         </p>
-        <Link to={"/"}><p className="font-medium hover:underline  hover:cursor-pointer ">
+        <Link to={"/"}><p className="font-medium  active:underline hover:underline active:cursor-pointer  hover:cursor-pointer ">
           Back to Welcome Page
         </p></Link>
       </div>
