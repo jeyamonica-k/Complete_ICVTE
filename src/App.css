@@ -69,3 +69,15 @@
   }
 }
 
+
+/* ContactDetail */
+
+@media (min-width:1025px) {
+  .floating{
+    position:absolute;
+    width: 25%;
+    top:55%;
+    left:37%
+  
+  }
+}
