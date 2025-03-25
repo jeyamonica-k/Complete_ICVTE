@@ -49,15 +49,15 @@ const ImageSlider = () => {
             <img
               src={images[index].src}
               alt={`Slide ${index + 1}`}
-              className=" w-full h-[350px] lg:h-[500px] xl:h-[550px] object-cover"
+              className=" w-full h-[600px] lg:h-[500px] xl:h-[550px] object-cover"
             />
             
              <div
         key={index}
         className=" lg:w-[70%] absolute bottom-10  left-0 mx-auto  text-white  bg-[#00000080] bg-opacity-5   rounded-md transition-all duration-500 transform translate-y-10 opacity-0 animate-fade-in-up md:bottom-12 lg:bottom-10"
       >
-        { <div className=" p-0.5 m-2  ">
-        <h1 className=" text-base  md:text-3xl md:m-2 lg:text-4xl "> {images[index].heading}</h1>
+        { <div className=" p-0.5 m-1 ">
+        <h1 className=" text-xs md:text-3xl md:m-2 lg:text-4xl "> {images[index].heading}</h1>
         <p className=" text-base md:text-xl lg:text-2xl"> {images[index].para}</p>
         </div> 
        }

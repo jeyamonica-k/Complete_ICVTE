@@ -54,8 +54,8 @@ const AnimatedSection = () => {
           }`}
         >
           
-          <h1 className="text-[#192C57] text-xl md:text-2xl  lg:text-4xl font-bold mb-2 p-3 gradient-border ">Welcome to the Indian Council of Vocational and Technical Education (ICVTE)</h1>
-          <h2 className=" text-base lg:text-3xl font-medium text-gray-800 mb-2 p-3">Empowering Future Generations through Skill Development</h2>
+          <h2 className="text-[#192C57] text-sm md:text-2xl  lg:text-4xl font-bold mb-2 p-1 gradient-border ">Welcome to the Indian Council of Vocational and Technical Education (ICVTE)</h2>
+          <h3 className=" text-base lg:text-3xl font-medium text-gray-800 mb-2 p-1">Empowering Future Generations through Skill Development</h3>
           <p className="text-black mt-2 text-sm lg:text-xl p-3 ">
           The Indian Council of Vocational and Technical Education (ICVTE) is dedicated to transforming the landscape of vocational and technical education in India. Incorporated under the legislation of the Ministry of Corporate Affairs, Government of India, ICVTE is committed to providing high-quality vocational training programs that equip individuals with the skills and knowledge needed to excel in today’s competitive job market. Our mission is to promote vocational and technical education to ensure that every learner, irrespective of their age or background, has access to the tools necessary for personal and professional growth.
           </p>          

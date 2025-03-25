@@ -44,17 +44,17 @@ const values=[{
     <img
       src={data.src}
       alt="Example"
-      className="w-full h-full object-cover transition duration-300  group-focus:blur-[2px] group-focus:scale-105 group-hover:blur-[2px] group-hover:scale-105"
+      className="w-full h-full object-cover transition duration-300 group-hover:blur-[2px] group-hover:scale-105"
     />
   
     {/* Top Red Diagonal Covering Left Top Corner */}
-    <div className="absolute top-0 left-0 w-full h-[15%] bg-red-600 transform -skew-y-18 origin-top-left transition-all duration-300 scale-0 group-focus:scale-100 group-hover:scale-100"></div>
+    <div className="absolute top-0 left-0 w-full h-[15%] bg-red-600 transform -skew-y-18 origin-top-left transition-all duration-300 scale-0 group-hover:scale-100"></div>
   
     {/* Bottom Blue Diagonal from Bottom-Left to Top-Right */}
-    <div className="absolute bottom-0 left-0 w-full h-1/2 bg-blue-950 transform -skew-y-11 origin-bottom-right transition-all duration-300 scale-0 group-focus:scale-100 group-hover:scale-100"></div>
+    <div className="absolute bottom-0 left-0 w-full h-1/2 bg-blue-950 transform -skew-y-11 origin-bottom-right transition-all duration-300 scale-0 group-hover:scale-100"></div>
   
     {/* Paragraph positioned between image and bottom slanted blue line */}
-    <div className="opacity-0 transition-all duration-300 group-focus:opacity-100 group-hover:opacity-100 flex-col gap-1 absolute bottom-0 left-0  p-1 m-1 ">
+    <div className="opacity-0 transition-all duration-300 group-hover:opacity-100 flex-col gap-1 absolute bottom-0 left-0  p-1 m-1 ">
     <h2 className="text-white text-xl font-bold md:text-2xl  md:p-3 md:m-3">{data.heading}</h2>
     <p className="text-red-500 md:text-xl  md:p-3 md:m-3 text-justify">{data.desc}</p>
     </div>

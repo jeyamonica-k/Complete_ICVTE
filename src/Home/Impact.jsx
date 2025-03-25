@@ -45,16 +45,16 @@ function Impact() {
                     index !== values.length - 1 ? "border-b-2" : ""
                   } `}
                 >
-                  <h1 className="text-gray-300 text-xl md:text-2xl z-10   font-bold group-focus:text-blue-700 group-hover:text-blue-700">
+                  <h1 className="text-gray-300 text-xl md:text-2xl z-10   font-bold group-active:text-blue-700 group-hover:text-blue-700">
                     {data.heading}
                   </h1>
-                  <p className="text-gray-300 text-normal md:text-xl z-10  group-focus:text-red-700  group-hover:text-red-700">
+                  <p className="text-gray-300 text-normal md:text-xl z-10  group-active:text-red-700  group-hover:text-red-700">
                     {data.desc}
                   </p>
                   <div className=" w-12 h-12  md:w-24 md:h-24 rounded-full z-10 ">
                     <img src={data.img} className="w-fit" alt="" />
                   </div>
-                  <span className="absolute top-0 right-0 bottom-0 left-[0] scale-x-0 -translate-x-full transition-transform duration-500  bg-white group-focus:-translate-x-0 group-focus:scale-x-100 group-hover:-translate-x-0 group-hover:scale-x-100"></span>
+                  <span className="absolute top-0 right-0 bottom-0 left-[0] scale-x-0 -translate-x-full transition-transform duration-500  bg-white group-active:-translate-x-0 group-active:scale-x-100 group-hover:-translate-x-0 group-hover:scale-x-100"></span>
                 </div>
               </>
             );
@@ -65,4 +65,4 @@ function Impact() {
   );
 }
 
-export default Impact;
+export default Impact;  
