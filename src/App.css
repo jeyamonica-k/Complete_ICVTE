@@ -81,3 +81,30 @@
   
   }
 }
+
+
+/* AnimatedSection */
+
+.gradient-border{
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right,red,rgb(244, 235, 235),white) 0.5;
+}
+
+/* ImageSlider */
+
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out forwards;
+}

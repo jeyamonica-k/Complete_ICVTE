@@ -5,7 +5,7 @@ import AdminLogin from "./Institute_login/AdminLogin"
 import MainCourse from "./Course_sec/MainCourse"
 import MainAbout from './About Us/MainAbout'
 import MainContact from './ContactUs/MainContact'
-
+import MainHome from "./Home/MainHome"
 function App() {
   return (
     <div>
@@ -14,8 +14,9 @@ function App() {
       <Route path="/InstituteLogin" element={<InstituteLogin/>}></Route>
       <Route path="/Adminlogin" element={<AdminLogin/>}></Route>
       <Route path="/Course" element={<MainCourse/>}></Route>
-      <Route path="/" element={<MainContact/>}></Route>
+      <Route path="/Contact" element={<MainContact/>}></Route>
       <Route path="/About" element={<MainAbout/>}></Route>
+      <Route path="/" element={<MainHome/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>
