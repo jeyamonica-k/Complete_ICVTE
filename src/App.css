@@ -1,0 +1,7 @@
+.content{
+  display: none;
+}
+
+.procedure:hover .content{
+  display: block;
+}

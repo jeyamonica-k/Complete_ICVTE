@@ -22,7 +22,7 @@ function AdminLogin() {
             <button className="bg-black text-white p-2 border-2 rounded-md active:text-black hover:text-black active:bg-transparent  hover:bg-transparent active:border-black hover:border-black active:cursor-pointer hover:cursor-pointer font-medium px-3 md:w-[50%] lg:w-[150%] lg:text-xl">
               Login
             </button>
-            <Link to={"/"}><p className="font-medium  active:underline hover:underline active:cursor-poiter hover:cursor-pointer">
+            <Link to={"/InstituteLogin"}><p className="font-medium  active:underline hover:underline active:cursor-poiter hover:cursor-pointer">
               Login to Institute Account?
             </p></Link>
             <p className="font-medium  active:underline hover:underline active:cursor-poiter  hover:cursor-pointer">
