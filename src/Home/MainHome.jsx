@@ -11,7 +11,7 @@ import CombinedDivision from "./CombinedDivision";
 
 function MainHome() {
   return (
-    <div>
+    <div >
       <Navbar_Section1></Navbar_Section1>
       <ImageSlider></ImageSlider>
       <Coursecard></Coursecard>
