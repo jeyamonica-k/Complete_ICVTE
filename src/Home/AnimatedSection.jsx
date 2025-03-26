@@ -29,7 +29,7 @@ const AnimatedSection = () => {
 
   return (
     <div ref={sectionRef}>
-      <div  className="  flex justify-center 2xl:h-auto mx-9 min-h-screen md:mx-14  xl:mx-32 2xl:left-12 2xl:p-0 items-center   overflow-hidden">
+      <div  className="max-w-full  flex justify-center 2xl:h-auto mx-9 min-h-screen md:mx-14  xl:mx-32 2xl:left-12 2xl:p-0 items-center   overflow-hidden">
       <div className=" flex flex-col md:items-center   md:flex-row ">
         
        {/* Image */}

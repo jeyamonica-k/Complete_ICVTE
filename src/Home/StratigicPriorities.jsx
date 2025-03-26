@@ -28,7 +28,7 @@ function StratigicPriorities() {
 
   return (
     <div ref={sectionRef}>
-      <div  className={`flex flex-col items-center gap-1 p-2 bg-black xl:justify-between h-[100%] my-2 xl:flex-row transform transition-all duration-1000 ease-in-out ${
+      <div  className={`max-w-full flex flex-col items-center gap-1 p-2 bg-black xl:justify-between h-[100%] my-2 xl:flex-row transform transition-all duration-1000 ease-in-out ${
       isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
     } `}>
       <div className={`flex flex-col gap-4  xl:justify-center xl:items-center xl:w-[100%] `}>

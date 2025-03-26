@@ -39,7 +39,7 @@ const values=[{
    {
     values.map(function(data,index){
       return(
-        <div className={`relative w-[300px] h-[400px] md:w-[500px] md:h-[600px] lg:w-[450px] lg:h-[400px] group overflow-hidden ${index=== 1 || index === 3 ? "lg:mt-20":""}`}>
+        <div className={` max-w-full relative w-[300px] h-[400px] md:w-[500px] md:h-[600px] lg:w-[450px] lg:h-[400px] group overflow-hidden ${index=== 1 || index === 3 ? "lg:mt-20":""}`}>
          {/* Image with blur effect on hover */}
     <img
       src={data.src}

@@ -5,7 +5,7 @@ import Company from "./Company";
 
 function CombinedDivision() {
   return (
-    <div className='relative'>
+    <div className='relative max-w-full '>
       {/* Company Section */}
       <div className='relative z-10'>
         <Company />

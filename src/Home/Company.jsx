@@ -49,7 +49,7 @@ function Company() {
     <div ref={sectionRef}>
       {/* main div */}
       <div
-        className={`flex flex-col gap-2 p-5 m-5 lg:mx-18 lg:my-12 transform transition-all duration-1000 ease-in-out  ${
+        className={`max-w-full flex flex-col gap-2 p-5 m-5 lg:mx-18 lg:my-12 transform transition-all duration-1000 ease-in-out  ${
           isVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
         } `}
       >

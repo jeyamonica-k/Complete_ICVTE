@@ -25,7 +25,7 @@ function Coursecard() {
   return (
     <>
       
-        <div className='flex flex-col items-center  mt-12  lg:flex-row lg:justify-center lg:gap-10  '>
+        <div className='flex flex-col items-center  mt-12  lg:flex-row lg:justify-center lg:gap-10 max-w-full  '>
           {
             course_images.map((data,index)=>{
 

@@ -8,12 +8,12 @@ import MainContact from './ContactUs/MainContact'
 import MainHome from "./Home/MainHome"
 function App() {
   return (
-    <div>
+    <div className="over-flow-x-hidden w-[100%]">
       <BrowserRouter>
       <Routes>
       <Route path="/InstituteLogin" element={<InstituteLogin/>}></Route>
       <Route path="/Adminlogin" element={<AdminLogin/>}></Route>
-      <Route path="/Course" element={<MainCourse/>}></Route>
+      <Route path="/Courses" element={<MainCourse/>}></Route>
       <Route path="/Contact" element={<MainContact/>}></Route>
       <Route path="/About" element={<MainAbout/>}></Route>
       <Route path="/" element={<MainHome/>}></Route>

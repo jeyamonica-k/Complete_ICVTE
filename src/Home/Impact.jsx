@@ -3,6 +3,8 @@ import one from "../images/employability.png";
 import two from "../images/economy growth-icon.png";
 import three from "../images/fostering innovation-icon.png";
 import four from "../images/social equity.png";
+
+import "../App.css"
 function Impact() {
   const values = [
     {
@@ -28,7 +30,7 @@ function Impact() {
   ];
   return (
     <div >
-      <div className="flex flex-col  md:items-center">
+      <div className=" max-w-full flex flex-col  md:items-center">
         <h2 className="relative text-2xl md:text-3xl  font-bold">
           <span className="relative z-10 block pb-2">The Impact We Create</span>
           <span className="absolute left-0 bottom-0 w-full h-[4px] bg-gradient-to-r from-red-700 to-transparent"></span>
@@ -45,16 +47,16 @@ function Impact() {
                     index !== values.length - 1 ? "border-b-2" : ""
                   } `}
                 >
-                  <h1 className="text-gray-300 text-xl md:text-2xl z-10   font-bold group-active:text-blue-700 group-hover:text-blue-700">
+                  <h1 className="text-gray-300 text-xl md:text-2xl z-10   font-bold  group-hover:text-blue-700">
                     {data.heading}
                   </h1>
-                  <p className="text-gray-300 text-normal md:text-xl z-10  group-active:text-red-700  group-hover:text-red-700">
+                  <p className="text-gray-300 text-normal md:text-xl z-10   group-hover:text-red-700">
                     {data.desc}
                   </p>
                   <div className=" w-12 h-12  md:w-24 md:h-24 rounded-full z-10 ">
                     <img src={data.img} className="w-fit" alt="" />
                   </div>
-                  <span className="absolute top-0 right-0 bottom-0 left-[0] scale-x-0 -translate-x-full transition-transform duration-500  bg-white group-active:-translate-x-0 group-active:scale-x-100 group-hover:-translate-x-0 group-hover:scale-x-100"></span>
+                  <span className=" element absolute top-0 right-0 bottom-0 left-0 scale-x-0 -translate-x-full transition-transform duration-500  bg-white group-hover:-translate-x-0 group-hover:scale-x-100"></span>
                 </div>
               </>
             );

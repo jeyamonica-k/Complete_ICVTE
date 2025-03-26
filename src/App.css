@@ -127,3 +127,25 @@
   }
 
 }
+
+/* Group */
+
+
+@media (max-width: 426px) {
+  .group h1:hover{
+    color: #1447e6;
+  }
+  .group p:hover{
+    color:#C90007
+  }
+  .element {
+    transform: scaleX(0) translateX(-100%);
+    background-color: white;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .element.group:hover {
+    transform: scaleX(1) translateX(0);
+  }
+  
+  }

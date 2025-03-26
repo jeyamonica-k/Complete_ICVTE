@@ -2,12 +2,15 @@
 
 body{
   font-family: "Poppins", sans-seri;
+ width: 100vw;
+ overflow-x: hidden;
   
 }
 
-body, html{
+/* body, html{
   overflow-x: hidden;
-}
+  width: 100vw;
+} */
 
 
 

@@ -12,20 +12,20 @@ function Navbar(props) {
     <div className={`flex gap-12 items-center justify-center text-xl text-blue-900 sticky top-0 z-30 bg-white transition-all duration-800 ${
             props.isScrolled ? "mt-[-70px]  justify-around py-0" : "mt-3  py-3 mb-2 "
           }`}>
-    <Link to={"/"}><p className={` active:text-red-700  hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Home</p></Link>
-    <Link to={"/About"}><p  className={` active:text-red-700 hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>About Us</p></Link>
-    <Link to={"/Courses"}><p  className={`active:text-red-700 hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Courses</p></Link>
+    <Link to={"/"}><p className={`hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Home</p></Link>
+    <Link to={"/About"}><p  className={`hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>About Us</p></Link>
+    <Link to={"/Courses"}><p  className={`hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Courses</p></Link>
     <div className='relative procedure '>
-    <Link><p  className={` active:text-red-700 hover:text-red-700 hover:cursor-pointer  ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Procedure</p></Link>
+    <Link><p  className={`hover:text-red-700 hover:cursor-pointer  ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Procedure</p></Link>
     <div className=' absolute bg-[#192C57]  w-[300%]  m-1 p-3 z-50  border-transparent rounded-md lg:top-[70%] left-[-60%]  content'>
       <div className='flex flex-col gap-3'> 
-      <p className='text-xl  text-white active:bg-[#D94426] hover:bg-[#D94426] p-2  border-transparent rounded-md'>Attestation</p>
-      <p className='text-xl  text-white active:bg-[#D94426] hover:bg-[#D94426] p-2 border-transparent rounded-md'>Approval Procedure</p>
-      <p className='text-xl  text-white active:bg-[#D94426] hover:bg-[#D94426] p-2 border-transparent rounded-md'>Sample Certificate</p>
+      <p className='text-xl  text-white hover:bg-[#D94426] p-2  border-transparent rounded-md'>Attestation</p>
+      <p className='text-xl  text-white hover:bg-[#D94426] p-2 border-transparent rounded-md'>Approval Procedure</p>
+      <p className='text-xl  text-white hover:bg-[#D94426] p-2 border-transparent rounded-md'>Sample Certificate</p>
       </div>
     </div>
     </div>
-    <Link to={"/Contact"}><p  className={`active:text-red-700 hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Contact Us</p></Link>
+    <Link to={"/Contact"}><p  className={`hover:text-red-700 hover:cursor-pointer ${ props.isScrolled ?"text-2xl font-medium":"text-normal"}`}>Contact Us</p></Link>
     <Link to={"/Institutelogin"}><p className={`
           relative p-2 bg-blue-950 text-white cursor-pointer border border-transparent rounded-md 
           shadow-2xl transition-all duration-500
@@ -56,4 +56,30 @@ function Navbar(props) {
 }
 
 export default Navbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

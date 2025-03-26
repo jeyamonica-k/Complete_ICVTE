@@ -54,7 +54,7 @@ const ImageSlider = () => {
             
              <div
         key={index}
-        className=" lg:w-[70%] absolute bottom-10  left-0 mx-auto  text-white  bg-[#00000080] bg-opacity-5   rounded-md transition-all duration-500 transform translate-y-10 opacity-0 animate-fade-in-up md:bottom-12 lg:bottom-10"
+        className=" max-w-full lg:w-[70%] absolute bottom-10  left-0 mx-auto  text-white  bg-[#00000080] bg-opacity-5   rounded-md transition-all duration-500 transform translate-y-10 opacity-0 animate-fade-in-up md:bottom-12 lg:bottom-10"
       >
         { <div className=" p-0.5 m-1 ">
         <h1 className=" text-xs md:text-3xl md:m-2 lg:text-4xl "> {images[index].heading}</h1>

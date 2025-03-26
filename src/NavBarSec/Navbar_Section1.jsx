@@ -24,7 +24,7 @@ const [isScrolled, setIsScrolled] = useState(false);
   }, []);
   return (
     <>
-    <div className='flex   items-center justify-between shadow-lg  sticky top-0 z-70 bg-white'>
+    <div className='flex items-center justify-between shadow-lg  sticky top-0 z-70 bg-white max-w-full'>
     <div>
       <img src={one} alt="logo"  className= {` md:w-40 transition-all duration-800 ${
             isScrolled ? "w-20 p-0 m-0  " : " w-32 lg:w-44 " 
@@ -43,13 +43,4 @@ const [isScrolled, setIsScrolled] = useState(false);
 }
 
 export default Navbar_Section1
-
-
-
-
-
-
-
-
-
 

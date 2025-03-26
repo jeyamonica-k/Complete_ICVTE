@@ -11,7 +11,7 @@ function Menubar() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="size-12 cursor-pointer md:size-14  "
+            class="size-12 cursor-pointer md:size-14 "
            
           >
             <path

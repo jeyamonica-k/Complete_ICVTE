@@ -39,7 +39,7 @@ function Footer() {
       "Language School"]
   return (
   <>
-    <div className="flex flex-col m-1 gap-2 border-t-2 border-blue-950 rounded-t-3xl p-4 md:flex-row md:m-7  md:justify-around">
+    <div className="max-w-full flex flex-col m-1 gap-2 border-t-2 border-blue-950 rounded-t-3xl p-4 md:flex-row md:m-7  md:justify-around">
       <div className="flex flex-col gap-3 md:w-[20%]">
         <h1 className="text-2xl font-bold text-red-600">ICVTE</h1>
         <h3 className="font-medium text-blue-900">
